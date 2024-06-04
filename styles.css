@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Gentium Plus;
+}
+
+body {
+    background-color: rgb(0, 0, 22);
+    color: rgb(230, 230, 230);
+    height: 100vh;
+}
+
+header h1{
+    font-weight: 700;
+    font-size: 42px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.descricao__curriculo {
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+}
+
+.zap {
+    max-width: 18px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+    margin-left: 3px;
+}
+
+.formacoes {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    flex-wrap: wrap;
+    margin: 3em;
+    align-items: center;
+}
+
+.formacao {
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.imagem__listag {
+    margin:3px;
+}
+
+.conhecimentos__g {
+    text-decoration: underline;
+}
+
+.cursos {
+    text-decoration: underline;
+}
+
+.cargo {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.cargos {
+    margin: 3em;
+    text-align: center;
+}
+
+.lista__cargo {
+    list-style-type: none;
+}
+
+.rodape {
+    text-align: center;
+}
+
+.rodape__r {
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 3em;
+}
+
+.lista__r {
+    align-items: center;
+    list-style-type:square
+}
+
+.github {
+    height: 30px;
+    width: 30px;
+    margin-top: 7em;
+}
